@@ -1,0 +1,15 @@
+using the class concept to make the class based components
+
+class is an alernative to functional components
+class based components must contain arender method to output on the screen
+
+functional component is a modern way of creating components
+we can mix both class and functional component in a project
+
+in class based based component state is alway a object and nothing else
+
+to manage side effect in class based component we can not use react hooks such as useEffect hook
+
+componentDidMount method - called only once when the component is evaluated and rendered
+componentDidUpdate - called only once when the component updated is evaluated and rendered
+componentWillUnmount - called right before when the component are removed from DOM
